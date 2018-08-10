@@ -1,0 +1,31 @@
+</head>
+<title>Can these numbers form a triangle?</title>
+<script type="text/javascript">
+<!-- HIDE FROM INCOMPATIBLE BROWSERS
+function triangle() {
+	var A = parseInt(document.sides.A.value);
+	var B = parseInt(document.sides.B.value);//converts for side B
+	var C = parseInt(document.sides.C.value);//converts for side C
+
+	var sideAsqrd = parseInt(document.sides.A.value) * parseInt(document.sides.A.value);//side A squared for pythagorean theorem
+	var sideBsqrd = parseInt(document.sides.B.value) * parseInt(document.sides.B.value);//side B squared
+	var sideCsqrd = parseInt(document.sides.C.value) * parseInt(document.sides.C.value);//side C squared
+	var AB = parseInt(document.sides.A.value) + parseInt(document.sides.B.value);//side A + B to check if a triangle can be formed
+	var AC = parseInt(document.sides.A.value) + parseInt(document.sides.C.value);//side A + C
+	var BC = parseInt(document.sides.B.value) + parseInt(document.sides.C.value);//side B + C
+	var A2B2 = sideAsqrd + sideBsqrd;
+	var A2C2 = sideAsqrd + sideCsqrd;
+	var B2C2 = sideBsqrd + sideCsqrd;
+	if ((AB > C) && (AC > B) && (BC > A) && (sideAsqrd == B2C2) || (sideBsqrd == A2C2) || (sideCsqrd == A2B2)) {
+		window.alert("These numbers could form a right triangle.");
+	}
+
+	else if ((AB > C) && (AC > B) && (BC > A)) {
+		window.alert("These numbers could form a triangle but not a right triangle.");
+	}
+	else {
+		window.alert("These numbers can not form a triangle.");
+	}
+
+
+}
