@@ -14,10 +14,10 @@
       <button onclick="trial()">submit</button>
     </div>
     <script type="text/javascript">
-    function triangle(){
-      document.getElementById("myform").elements.namedItem("side1").value
-      document.getElementById("myform").elements.namedItem("side2").value
-      document.getElementById("myform").elements.namedItem("side3").value
+    function trial(){
+      var side1 = document.getElementById("myform").elements.namedItem("side1").value
+      var side2 = document.getElementById("myform").elements.namedItem("side2").value
+      var side3 = document.getElementById("myform").elements.namedItem("side3").value
       if(( side1 + side2 ) <= side3 || ( side2 + side3 ) <= side1 || ( side1 + side3 ) <= side2 ){
         alert("Can't make a triangle");
       }
