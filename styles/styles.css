@@ -2,8 +2,16 @@
 	float: center;
 	padding: 6px;
 	margin-left: auto;
-	margin-right: inherit;
 	margin-bottom:6px;
+	margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+	
+}
+.centerText{
+	text-align: center;
+	border: 3px solid green;
 }
 .buton{
 	padding: 2px;
@@ -11,6 +19,50 @@
 	float: center;
 	position: auto;t
 }
-.frm{
-	float: center;
+.myform{
+	/* margin: 0 auto; */
+	margin: 0 auto;
+  width:250px;
+}
+.body{
+	color: teal;
+}
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	margin: 0;
+	padding: 0;
+	}
+p {
+	margin-top: 0;
+	text-align: justify;
+	}
+
+
+.intro {
+	min-width: 470px;
+	width: 100%;
+	}
+
+header h1 {
+	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+header {
+	padding-top: 20px;
+	height: 87px;
 }
