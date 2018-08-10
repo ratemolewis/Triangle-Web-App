@@ -15,7 +15,7 @@ This is a triangle web-app that prompts the use input the three sides of a trian
 
 {The web-app  does not require any dependencies.It is located on the github pages. lastly it does not have a database yet as it is on trial yet.}
 ##### Link
-[my portfolio site](https://ratemolewis.github.io/luiz/)
+[my portfolio site](https://ratemolewis.github.io/Triangle-Web-App/)
 ##### Known Bugs
 {It does not contain any bugs as it is function well }
 ##### Technologies Used
